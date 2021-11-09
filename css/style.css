@@ -4,7 +4,7 @@
 
 body{
     margin: 0%;
-    background-color: lightgrey;
+    background-color: rgb(241, 240, 240);
 }
 
 
@@ -30,12 +30,53 @@ body{
 }
 /* corpo principale */
 #central-block{
-    background-color: white;
-    border: solid 0px;
-    margin-top: 20px;
-    text-align: center;
+    
+        width: 800px;
+        height: 45px;
+        background: white;
+        margin: 10px auto;
+        text-align: left;
+        padding-top: 10px;
+        border-radius: 5px;
+        line-height: 20px;
+        
+
 }
 
-.bottom{
+.bottom-ask{
 border: 10px;
+padding-left: 10px;
+text-decoration: none;
+color: white;
+}
+
+.bottom-add{
+    border: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: gray;
+    }
+
+/* utils*/
+
+.backgr-blu{
+background-color: rgb(15, 110, 170);
+border: solid 0px;
+width: 20px;
+height: 20px;
+padding: 5px;
+border-radius: 5px;
+}
+
+.backgr-white{
+    background-color: white;
+    color: gray;
+    border: solid  black 1px;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    }
+.white-text{
+    color: white;
 }
