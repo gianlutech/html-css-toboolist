@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    background-color: lightgrey;
+}
+
+
+
+/* introduzione */
+.heading{
+    font-size: 30px;
+    
+    height: 60px;
+    background-color: white;
+    border: solid 0px;
+
+}
+/* logo e scritta */
+#title{
+    display: inline;
+    font-size: 55px;
+    vertical-align: middle;
+}
+
+.logo{
+    vertical-align: middle;
+}
+/* corpo principale */
+#central-block{
+    background-color: white;
+    border: solid 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bottom{
+border: 10px;
+}
