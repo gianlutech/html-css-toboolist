@@ -1,107 +1,146 @@
-*{
+/* Generics */
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    margin: 0%;
-    background-color: #f5f7f7;
+    background-color: #F6F8F9;
 }
 
-
-
-/* introduzione */
-.heading{
-    font-size: 30px;
-    
-    height: 60px;
-    background-color: white;
-    border: solid 0px;
-
+h2{
+    margin-top: 30px;
 }
-/* logo e scritta */
-#title{
+
+ul{
+    list-style-type: none;
+}
+
+/* Utils */
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+details{
+    border-radius: 5px
+    ;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+header{
+    height: 70px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+#logo{
+    height: 50px;
+    vertical-align: middle;
+}
+
+h1{
     display: inline;
-    font-size: 55px;
+    line-height: 70px;
+    font-weight: 900;
+    font-size: 38px;
     vertical-align: middle;
 }
 
-.logo{
-    vertical-align: middle;
-}
-/* corpo principale */
-.central-block1{
-    
-        width: 800px;
-        height: 45px;
-        background: white;
-        margin: 10px auto;
-        text-align: left;
-        padding-top: 10px;
-        border-radius: 5px;
-        line-height: 20px;
+.li-option{
+    margin-top: 15px;
 }
 
-.central-block2{
-    
-        width: 800px;
-        height: 500px;
-        background: white;
-        margin: 10px auto;
-        text-align: left;
-        padding-top: 10px;
-        border-radius: 5px;
-        line-height: 20px;
-        
+/* Central section */
 
+#action{
+    padding: 10px 30px;
+    border-bottom: 2px solid #F6F8F9;
 }
 
-.bottom-ask{
-border: 10px;
-padding-left: 10px;
-text-decoration: none;
-color: white;
-}
-
-.bottom-add{
-    border: 10px;
-    padding-left: 10px;
-    text-decoration: none;
-    color: gray;
-    }
-
-/* utils*/
-
-.backgr-blu{
-background-color: rgb(15, 110, 170);
-border: solid 0px;
-width: 20px;
-height: 20px;
-padding: 5px;
-border-radius: 5px;
-}
-
-.backgr-white{
-    background-color: white;
-    color: gray;
-    border: solid  grey 1px;
-    width: 20px;
-    height: 20px;
-    padding: 5px;
+.btn{
     border-radius: 5px;
-    }
-.white-text{
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    
+}
+
+.btn-task{
+color:white;
+background-color: #1E90FF;
+border-color: #1E90FF;
+}
+
+.btn-sect{
+    color: grey;
+    background-color: white;
+    border-color: currentColor;
+
+}
+
+#tasks{
+    padding: 20px;
+}
+
+/* Lists */
+
+.status{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+
+
+}
+
+.done{
+    color: green;
+    border-color: green;
+}
+
+.undone{
+    color: red;
+    border-color: red;
+}
+
+.task-text{
+    vertical-align: middle;
+}
+
+/* Tag */
+
+.tag{
+    vertical-align: middle;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 5px;
     color: white;
 }
 
-.check{
-    list-style-type: "\2705"; 
+.tag-blue{
+background-color: #45ABEA;
 }
-
-.down{
- list-style-type: "\25BC"; 
+.tag-orange{
+background-color: orange;
 }
-
-.cross{
-    list-style-type: "\274C"; 
-
+.tag-green{
+background-color: green;
+}
+.tag-pink{
+background-color: hotpink;
+}
+.tag-lightgreen{
+background-color: lawngreen;
+}
+.tag-violet{
+background-color: violet;
 }

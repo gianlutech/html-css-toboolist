@@ -6,55 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gianluca Ingrao">
     <meta name="description" content="Ttoboolist">
-    <link rel="icon" href="img/Logo.png" type="img/png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Logo.png" type="images/png">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Toboolist</title>
 </head>
 <body>
+
+    <!-- Intestazione -->
     
-    <header>
-        <div class="heading" class="logo">
-            <img class="logo" src="img/logo copia.png" alt="logo boolean">
-            <span id="title" class="logo">Toboolist</span>
-        </div>
+    <header class="bg-white">
+        <img id="logo" src="img/Logo.png" alt="">
+        <h1>Toboolist</h1>
     </header>
 
-    <main class="container">
-        <section >
-            <div class="central-block1">
-                <a href="" class="bottom-ask" > <span class="backgr-blu" class="white-text">Add Task</span></a>
-                <a href="" class="bottom-add" > <span class="backgr-white" class="white-text">Add Section</span></a>
-            </div>
-        </section>
+    <!-- Parte centrale -->
 
-        <section>
-            <div class="central-block2">
-                <ul class="list">
-                    <li class="down">New Task
+    <main>
+        <div class="container bg-white details">
+            <!-- Bottom section -->
+            <section id="action">
+                <button class="btn btn-task">Add Task</button>
+                <button class="btn btn-sect">Add Section</button>
+            </section>
+
+            <!-- Tasks section -->
+
+            <section id="tasks">
+                <ul>
+                    <li>
+                        <h2>&blacktriangledown; New Task</h2>
                         <ul>
-                            <li class="check">Quarterly Newsletter</li>
-                        </ul>
-                    </li>
-                    <li class="down">Today
-                        <ul>
-                            <li class="check">Recruiting blog post</li>
-                            <li class="check">Mobile app launch</li>
-                            <li class="cross">Interview John H.</li>
-                            <li class="check">Summit update to mobile storefronts</li>
-                        </ul>
-                    </li>
-                    <li class="down">Upcoming
-                        <ul class="">
-                            <li class="cross">Schedule Meeting whit Alex</li>
-                            <li class="check">Homepage refesh</li>
-                            <li class="cross">Onboard new sales team members</li>
-                            <li class="check">Reviews editorial character</li>
+                            <li class="li-option">
+                                <span class="status done"> &check; </span>
+                                <span class="task-text"> Quarterly Newsletter </span>
+                                <span class="tag tag-blue">Editorial</span></li>
                         </ul>
                     </li>
                 </ul>
-            </div>
-        </section>
+                <ul>
+                    <li>
+                        <h2>&blacktriangledown; Today</h2>
+                        <ul>
+                            <li class="li-option">
+                                <span class="status done"> &check; </span>
+                                <span class="task-text"> Recruiting post blog </span>
+                                <span class="tag tag-blue">Editorial</span></li>
+                            <li class="li-option">
+                                <span class="status done"> &check; </span>
+                                <span class="task-text"> Mobile app launch </span>
+                                <span class="tag tag-violet">Q1-goals</span></li>
+                            <li class="li-option">
+                                <span class="status undone"> &cross; </span>
+                                <span class="task-text"> Interrview John H. </span>
+                                <span class="tag tag-lightgreen">Recruiting</span></li>
+                            <li class="li-option">
+                                <span class="status done"> &check; </span>
+                                <span class="task-text"> Summit update to mobile storefront </span>
+                                <span class="tag tag-orange">Mobile</span></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2>&blacktriangledown; Upcoming</h2>
+                        <ul>
+                            <li class="li-option">
+                                <span class="status undone"> &cross; </span>
+                                <span class="task-text"> Schedule Meeting with Alex </span>
+                                <span class="tag tag-lightgreen">Recruiting</span></li>
+                            <li class="li-option">
+                                <span class="status done"> &check; </span>
+                                <span class="task-text">Homepage refresh </span>
+                                <span class="tag tag-pink">Website</span></li>
+                            <li class="li-option">
+                                <span class="status undone"> &cross; </span>
+                                <span class="task-text"> Onboard new sales team members </span>
+                                <span class="tag tag-green">Sales</span></li>
+                            <li class="li-option">
+                                <span class="status done"> &check; </span>
+                                <span class="task-text"> Review editorial character </span>
+                                <span class="tag tag-orange">Editorial</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
     </main>
-    
 </body>
 </html>
